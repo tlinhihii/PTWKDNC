@@ -1,0 +1,29 @@
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+td {
+  padding: 6px 10px;
+}
+
+input[type="text"] {
+  width: 120px;
+  padding: 4px;
+}
+
+input[readonly] {
+  background: #f2f2f2;
+  font-weight: bold;
+}
+
+button {
+  margin: 4px 2px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.error {
+  border: 1px solid red;
+}

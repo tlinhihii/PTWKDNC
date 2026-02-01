@@ -1,0 +1,119 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f6fb;
+}
+
+/* Khung chính */
+.box {
+  width: 520px;
+  margin: 50px auto;
+  padding: 30px 35px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 2px solid #2c3e50;
+}
+
+/* Tiêu đề */
+.box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+/* Label */
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* Input + Select */
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1.5px solid #cfd8dc;
+  font-size: 15px;
+  transition: 0.2s;
+  background: #fafafa;
+}
+
+input:focus,
+select:focus {
+  border-color: #3f51b5;
+  outline: none;
+  background: #fff;
+}
+
+/* Radio */
+.radio-group {
+  display: flex;
+  gap: 25px;
+  margin-top: 8px;
+}
+
+.radio-group label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+}
+
+/* Checkbox */
+.checkbox-group {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+}
+
+/* Button */
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background: #1976d2;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 140px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #0d47a1;
+  transform: translateY(-1px);
+}
+
+/* Error text */
+.error {
+  color: #d32f2f;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* JSON result */
+.result-box {
+  margin-top: 20px;
+  padding: 12px;
+  background: #f1f3f8;
+  border-radius: 6px;
+  font-size: 13px;
+  word-break: break-word;
+  border: 1px solid #d6d9e0;
+}
