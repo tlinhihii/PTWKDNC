@@ -1,0 +1,145 @@
+/* ===== Title ===== */
+.title {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* ===== Message ===== */
+.ok {
+  text-align: center;
+  color: #155724;
+  background: #d4edda;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.err {
+  text-align: center;
+  color: #721c24;
+  background: #f8d7da;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* ===== Card ===== */
+.card {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 24px 28px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Table Layout ===== */
+.form-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.form-table tr {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.form-table tr:last-child {
+  border-bottom: none;
+}
+
+.label {
+  width: 160px;
+  padding: 12px 8px 12px 0;
+  font-weight: 600;
+  color: #34495e;
+  vertical-align: top;
+}
+
+/* ===== Inputs ===== */
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.15);
+}
+
+.input:disabled {
+  background: #f5f6f7;
+  color: #888;
+  cursor: not-allowed;
+}
+
+/* ===== Hint text ===== */
+.hint {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+  color: #888;
+}
+
+/* ===== Buttons ===== */
+.actions {
+  margin-top: 22px;
+  text-align: right;
+}
+
+.btn {
+  padding: 9px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #f8f9fa;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 8px;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background: #e9ecef;
+}
+
+.btn.primary {
+  background: #4a90e2;
+  border-color: #4a90e2;
+  color: white;
+}
+
+.btn.primary:hover {
+  background: #357abd;
+  border-color: #357abd;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .form-table,
+  .form-table tr,
+  .form-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .label {
+    margin-bottom: 6px;
+  }
+
+  .actions {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+    margin: 6px 0 0 0;
+  }
+}
