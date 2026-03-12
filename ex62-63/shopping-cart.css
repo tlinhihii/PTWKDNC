@@ -1,0 +1,37 @@
+/* Card shadow nhẹ */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+/* Product card hover */
+.card:hover {
+  transform: translateY(-3px);
+  transition: 0.2s ease;
+}
+
+/* Image product */
+.card-img-top {
+  object-fit: contain;
+}
+
+/* Table cart */
+table img {
+  border-radius: 6px;
+}
+
+/* Quantity input */
+input[type="number"] {
+  border-radius: 6px;
+}
+
+/* Hover row cart */
+tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Button update */
+.btn-info {
+  font-size: 13px;
+  padding: 4px 10px;
+}
